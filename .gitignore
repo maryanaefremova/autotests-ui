@@ -1,2 +1,5 @@
 .vscode/settings.json
 /__pycache__
+browser-state.json
+/tests/__pycache__
+browser-state.json
