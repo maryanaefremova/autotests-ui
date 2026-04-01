@@ -7,3 +7,5 @@ browser-state.json
 /pages/__pycache__
 /components/__pycache__
 /components/navigation/__pycache__
+/components/courses/__pycache__
+/components/views/__pycache__
