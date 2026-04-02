@@ -9,3 +9,6 @@ browser-state.json
 /components/navigation/__pycache__
 /components/courses/__pycache__
 /components/views/__pycache__
+/components/authentication/__pycache__
+/components/charts/__pycache__
+/components/dashboard/__pycache__
