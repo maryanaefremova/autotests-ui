@@ -13,3 +13,10 @@ browser-state.json
 /components/charts/__pycache__
 /components/dashboard/__pycache__
 /elements/__pycache__
+/pages/courses/__pycache__
+/pages/dashboard/__pycache__
+/pages/authentication/__pycache__
+/tests/authentication/__pycache__
+/tests/courses/__pycache__
+/tests/dashboard/__pycache__
+/tests/pytest/__pycache__
