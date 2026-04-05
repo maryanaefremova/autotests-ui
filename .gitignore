@@ -21,3 +21,4 @@ browser-state.json
 /tests/dashboard/__pycache__
 /tests/pytest/__pycache__
 /tools/allure/__pycache__
+/tools/playwright/__pycache__
