@@ -22,6 +22,7 @@ from tools.allure.tags import AllureTag
 @allure.suite(AllureFeature.AUTHENTICATION)
 @allure.sub_suite(AllureStory.AUTHORIZATION) 
 class TestAuthorization:
+    @pytest.mark.xdist_group(name="authorization-group")
     @pytest.mark.parametrize(
         "email, password",
         [
@@ -73,6 +74,7 @@ class TestAuthorization:
         dashboard_page.sidebar.check_visible()
 
     @allure.tag(AllureTag.NAVIGATION)
+    @pytest.mark.xdist_group(name="authorization-group")
     @allure.title("Navigation from login page to registration page")
     @allure.severity(Severity.NORMAL) 
     def test_navigate_from_authorization_to_registration(
