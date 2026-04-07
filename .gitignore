@@ -1,25 +1,16 @@
 .vscode/settings.json
-/__pycache__
 browser-state.json
-/tests/__pycache__
 browser-state.json
-/fixtures/__pycache__
-/pages/__pycache__
-/components/__pycache__
-/components/navigation/__pycache__
-/components/courses/__pycache__
-/components/views/__pycache__
-/components/authentication/__pycache__
-/components/charts/__pycache__
-/components/dashboard/__pycache__
-/elements/__pycache__
-/pages/courses/__pycache__
-/pages/dashboard/__pycache__
-/pages/authentication/__pycache__
-/tests/authentication/__pycache__
-/tests/courses/__pycache__
-/tests/dashboard/__pycache__
-/tests/pytest/__pycache__
-/tools/allure/__pycache__
-/tools/playwright/__pycache__
-/tools/__pycache__
+# python
+.venv
+__pycache__
+
+# allure
+allure-results
+allure-report
+
+# testing artifacts
+*.html
+*.json
+videos
+tracing
