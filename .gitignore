@@ -1,6 +1,6 @@
-.vscode/settings.json
-browser-state.json
-browser-state.json
+# vscode
+.vscode
+
 # python
 .venv
 __pycache__
