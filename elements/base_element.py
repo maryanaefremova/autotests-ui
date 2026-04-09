@@ -2,7 +2,6 @@ import allure
 from playwright.sync_api import Page, Locator, expect
 from ui_coverage_tool import ActionType, SelectorType
 
-# Импортируем трекер покрытия — основной интерфейс для логирования покрытых элементов
 from elements.ui_coverage import tracker
 from tools.logger import get_logger
 
